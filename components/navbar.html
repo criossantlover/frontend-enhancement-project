@@ -1,3 +1,21 @@
-<nav>
-  <h2>My Website</h2>
+<nav class="navbar" id="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">&#9670;</span>
+      <span class="logo-text">NEXUS<span class="accent">PLAY</span></span>
+    </a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="../pages/about.html" class="nav-link">About</a></li>
+      <li><a href="../pages/contact.html" class="nav-link">Contact</a></li>
+      <li>
+        <button class="btn-primary small" onclick="openModal()">Play Free</button>
+      </li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </nav>
